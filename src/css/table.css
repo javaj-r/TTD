@@ -1,0 +1,75 @@
+div.purpleHorizon {
+  border: 4px solid #792396;
+  background-color: #555555;
+  width: 96%;
+  height: 200%;
+  text-align: center;
+  border-collapse: collapse;
+}
+.divTable.purpleHorizon .divTableCell, .divTable.purpleHorizon .divTableHead {
+  border: 2px solid #555555;
+  padding: 5px 2px;
+}
+.divTable.purpleHorizon .divTableBody .divTableCell {
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.divTable.purpleHorizon .divTableRow:nth-child(even) {
+  background: #CC3BFC;
+}
+.divTable.purpleHorizon .divTableHeading {
+  background: #792396;
+  background: -moz-linear-gradient(top, #9a5ab0 0%, #8639a0 66%, #792396 100%);
+  background: -webkit-linear-gradient(top, #9a5ab0 0%, #8639a0 66%, #792396 100%);
+  background: linear-gradient(to bottom, #9a5ab0 0%, #8639a0 66%, #792396 100%);
+  border-bottom: 3px solid #792396;
+}
+.divTable.purpleHorizon .divTableHeading .divTableHead {
+  font-size: 23px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #792396;
+}
+.divTable.purpleHorizon .divTableHeading .divTableHead:first-child {
+  border-left: none;
+}
+
+.purpleHorizon .tableFootStyle {
+  font-size: 13px;
+}
+.purpleHorizon .tableFootStyle .links {
+	 text-align: right;
+}
+.purpleHorizon .tableFootStyle .links a{
+  display: inline-block;
+  background: #792396;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.purpleHorizon.outerTableFooter {
+  border-top: none;
+}
+.purpleHorizon.outerTableFooter .tableFootStyle {
+  padding: 3px 5px;
+}
+/* DivTable.com */
+.divTable{
+margin: 2%;
+display: table;
+}
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableCell { vertical-align:middle;}
+
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
+.id { width: 10%; }
+.title { width: 20%; }
+.description { width: 40%; }
+.date { width: 20%; }
+.status { width: 10%; }

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./css/table.css">
+</head>
+<body>
+
+<div class="divTable purpleHorizon">
+    <div class="divTableHeading">
+        <div class="divTableRow">
+            <div class="divTableHead id">ID</div>
+            <div class="divTableHead title">Title</div>
+            <div class="divTableHead description">Description</div>
+            <div class="divTableHead date">Start Time</div>
+            <div class="divTableHead status">Status</div>
+        </div>
+    </div>
+    <div class="divTableBody">
